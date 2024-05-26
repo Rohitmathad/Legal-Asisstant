@@ -1,0 +1,254 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Hello",
+                "Good morning",
+                "Good afternoon",
+                "Greetings"
+            ],
+            "responses": [
+                "Hi, I am your legal assistant chatbot. How may I help you?",
+                "Hello, how can I assist you today?",
+                "Hey there, what can I do for you?"
+            ]
+        },        
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Take care",
+                "Farewell",
+                "Until next time"
+            ],
+            "responses": [
+                "See you later, thanks for consulting",
+                "Have a nice day",
+                "Bye!"
+            ]
+        },        
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Got it",
+                "Okay",
+                "Much appreciated",
+                "Thanks a lot",
+                "Appreciate it"
+            ],
+            "responses": [
+                "Happy to help! Is there anything else I can assist you with?",
+                "Any time! Is there anything else I can do for you?",
+                "My pleasure! Is there anything else I can help you with?"
+            ]
+        },        
+        {
+            "tag": "Contract Documents",
+            "patterns": [
+                "business contracts",
+                "service agreements",
+                "commercial deals",
+                "legal obligations",
+                "formal pacts",
+                "contractual arrangements",
+                "vendor agreements",
+                "client contracts",
+                "partnership agreements",
+                "lease agreements",
+                "purchase agreements",
+                "sales contracts",
+                "employment contracts",
+                "consulting agreements",
+                "distribution agreements",
+                "franchise agreements",
+                "non-disclosure agreements",
+                "confidentiality agreements",
+                "settlement agreements"
+            ],
+            "responses": [
+                "Please refer to the Contract Documents section."
+            ]
+        },        
+        {
+            "tag": "Trademark & Copyright Documents",
+            "patterns": [
+                "trademark registration",
+                "copyright protection",
+                "intellectual property rights",
+                "brand identity",
+                "creative works protection",
+                "infringement cases",
+                "brand trademarks",
+                "copyright laws",
+                "intellectual property agreements",
+                "patent applications",
+                "licensing agreements",
+                "assignment agreements",
+                "copyright registrations",
+                "trademark applications",
+                "trade secret agreements",
+                "intellectual property assignments",
+                "non-disclosure agreements",
+                "intellectual property licenses",
+                "intellectual property audits"
+            ],
+            "responses": [
+                "Please refer to the Trademark & Copyright Documents section."
+            ]
+        },            
+        {
+            "tag": "Banking/Finance Documents",
+            "patterns": [
+                "financial regulations",
+                "banking laws",
+                "investment agreements",
+                "loan agreements",
+                "financial transactions",
+                "financial institutions",
+                "banking regulations",
+                "asset management contracts",
+                "wealth management agreements",
+                "loan documentation",
+                "mortgage agreements",
+                "credit agreements",
+                "investment prospectuses",
+                "investment reports",
+                "financial statements",
+                "loan applications",
+                "credit reports",
+                "security agreements",
+                "collateral documents",
+                "finance leases"
+            ],
+            "responses": [
+                "Please refer to the Banking/Finance Documents section."
+            ]
+        },             
+        {
+            "tag": "Property Documents",
+            "patterns": [
+                "real estate deeds",
+                "property ownership agreements",
+                "land deeds",
+                "title transfers",
+                "property transfers",
+                "land registration documents",
+                "property titles",
+                "rental agreements",
+                "lease contracts",
+                "property leases",
+                "rental contracts",
+                "tenancy agreements",
+                "landlord-tenant agreements",
+                "property purchase agreements",
+                "home sale contracts",
+                "property deeds",
+                "landlord agreements",
+                "property rental agreements",
+                "lease agreements",
+                "property management agreements"
+            ],
+            "responses": [
+                "Please refer to the Property Documents section."
+            ]
+        },       
+        {
+            "tag": "Bonds Documents",
+            "patterns": [
+                "bond agreements",
+                "debt instruments",
+                "bondholder rights",
+                "bond issuances",
+                "bond terms",
+                "bond offerings",
+                "debt securities",
+                "bond contracts",
+                "bondholder agreements",
+                "bond terms conditions",
+                "bond prospectuses",
+                "bond indentures",
+                "bond certificates",
+                "bond registration documents",
+                "bond purchase agreements",
+                "bond redemption notices",
+                "bond trustee agreements",
+                "bond disclosure statements",
+                "bond underwriting agreements"
+            ],
+            "responses": [
+                "Please refer to the Bonds Documents section."
+            ]
+        },        
+        {
+            "tag": "Criminal Documents",
+            "patterns": [
+                "criminal laws",
+                "legal penalties",
+                "proceedings",
+                "criminal offenses",
+                "criminal charges",
+                "criminal investigations",
+                "criminal statutes",
+                "legal prosecutions",
+                "indictments",
+                "legal cases",
+                "court documents",
+                "criminal records",
+                "law enforcement reports",
+                "crime scene evidence",
+                "court filings",
+                "arrest warrants",
+                "police reports",
+                "court orders",
+                "plea agreements"
+            ],
+            "responses": [
+                "Please refer to the Criminal Documents section."
+            ]
+        },        
+        {
+            "tag": "Divorce/Family Documents",
+            "patterns": [
+                "divorce proceedings",
+                "child custody",
+                "spousal support",
+                "guardianship arrangements",
+                "adoption process",
+                "family law",
+                "custody agreements",
+                "marriage dissolution",
+                "prenuptial agreements",
+                "separation agreements",
+                "parenting plans",
+                "child support agreements",
+                "visitation schedules",
+                "paternity affidavits",
+                "guardianship petitions",
+                "adoption petitions",
+                "domestic partnership agreements",
+                "marriage certificates",
+                "birth certificates"
+            ],
+            "responses": [
+                "Please refer to the Divorce/Family Documents section."
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [
+            ],
+            "responses": [
+                "Sorry I am unable to help you with that.",
+                "I am unable to find an appropriate document for that."
+            ]
+        }       
+    ]
+}
