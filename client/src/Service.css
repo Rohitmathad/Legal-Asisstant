@@ -1,0 +1,111 @@
+/* :root {
+    font-size: 20px;
+    box-sizing: inherit;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+p {
+    margin: 0;
+}
+
+p:not(:last-child) {
+    margin-bottom: 1em;
+
+}
+
+.outer {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden; /* Use 'hidden' to hide any overflow from the video */
+   
+    position: relative;
+}
+
+/* Add a video element inside the .outer container */
+
+
+.right select{
+    padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: '16px';
+            width: 200px;
+}
+.right h2{
+    font-weight: bold;
+}
+.serve {
+    font: 1em/1.618 Inter, sans-serif;
+    
+    display: flex;
+    
+
+     min-height: 100vh;
+    padding: 30px;
+
+    color: #224;
+
+
+
+}
+
+
+.cards {
+    margin-top: 40px;
+    height: auto;
+    
+    
+}
+
+.card {
+    
+    /* Each division takes up equal space */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #e0e0e0;
+    width: 90%;
+    margin-bottom: 10px;
+
+    
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-top: 100px; */
+   
+    height: 170px;
+    padding: 35px;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(15px);
+   
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card-footer {
+    font-size: 0.65em;
+    color: #446;
+}
